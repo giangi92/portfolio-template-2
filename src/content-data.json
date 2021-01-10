@@ -1,0 +1,59 @@
+{
+    "section1":{
+        "title": "Benvenuti in giangisoft",
+        "subtitle": "Sito personale di Gianluca Lingua"
+    },
+    "section2":{
+        "section_title": "About",
+        "title": "Benvenuti in giangisoft",
+        "text1": "Sito personale di Gianluca Lingua",
+        "list1":"Benvenuti in giangisoft",
+        "list2":"Benvenuti in giangisoft",
+        "list3":"Benvenuti in giangisoft",
+        "text2":"Sito personale di Gianluca Lingua"
+    },
+    "section3":{
+        "title1": "Benvenuti in giangisoft",
+        "text1": "Sito personale di Gianluca Lingua",
+        "title2": "Benvenuti in giangisoft",
+        "text2": "Sito personale di Gianluca Lingua",
+        "title3": "Benvenuti in giangisoft",
+        "text3": "Sito personale di Gianluca Lingua",
+        "title4": "Benvenuti in giangisoft",
+        "text4": "Sito personale di Gianluca Lingua"
+    },
+    "section4":{
+        "section_subtitle": "services",
+        "section_title": "Dai un'occhiata ai nostri servizi",
+        "title1": "Benvenuti in giangisoft",
+        "text1": "Sito personale di Gianluca Lingua",
+        "title2": "Benvenuti in giangisoft",
+        "text2": "Sito personale di Gianluca Lingua",
+        "title3": "Benvenuti in giangisoft",
+        "text3": "Sito personale di Gianluca Lingua",
+        "title4": "Benvenuti in giangisoft",
+        "text4": "Sito personale di Gianluca Lingua",
+        "title5": "Benvenuti in giangisoft",
+        "text5": "Sito personale di Gianluca Lingua",
+        "title6": "Benvenuti in giangisoft",
+        "text6": "Sito personale di Gianluca Lingua"
+    },
+    "section5":{
+        "title": "Parti ora all'azione",
+        "text": "Benventi in giangisoft, Sito personale di Gianluca Lingua",
+        "button": "Parti all'azione"
+    },
+    "section6":{
+        "section_subtitle": "contact",
+        "section_title": "Contattaci",
+        "title1": "Location: ",
+        "text1": "Via Amendola, Bari",
+        "title2": "Email: ",
+        "text2": "gianluca.ling@gmail.com",
+        "title3": "Telefono: ",
+        "text3": "+39 370 1234567"
+    },
+    "footer":{
+
+    }
+}

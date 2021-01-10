@@ -1,0 +1,378 @@
+
+/* ///// CONTENT ////// */
+
+body {
+  font-family: "Open Sans Regular", sans-serif;
+  color: #272829;
+}
+
+#firstPage {
+  width: 100%;
+  height: 100vh;
+  background: url('./media/img/3dscience.jpg') top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#firstPage:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#firstPage h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #45505b;
+}
+
+#firstPage p {
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#firstPage p span {
+  color: #5580E9;
+  letter-spacing: 1px;
+}
+
+#firstPage .row {
+  margin-left: 0;
+}
+
+.main {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  margin-top: 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+/* RIPPED CSS RIPPED CSS RIPPED CSS*/
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+  #header {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
+
+  .active {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: 0px!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    margin-left: 100px!important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a {
+  display: flex;
+  align-items: center!important;
+  color: #646060;
+  padding: 10px 18px!important;
+  margin-bottom: 8px!important;
+  transition: 0.3s;
+  font-size: 15px!important;
+  border-radius: 50px!important;
+  background: #f2f3f5;
+  height: 56px!important;
+  width: 30px;
+  overflow: hidden!important;
+  transition: 0.3s!important;
+}
+
+.nav-menu a i {
+  font-size: 20px;
+}
+
+.nav-menu a span {
+  padding: 0 5px 0 7px;
+  color: #45505b;
+}
+
+@media (min-width: 992px) {
+  .nav-menu a {
+    width: 56px;
+  }
+  .nav-menu a span {
+    display: none;
+    color: #fff;
+  }
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #fff;
+  background: #0563bb;
+}
+
+.nav-menu a .active {
+  color: #fff;
+  background: #0563bb;
+}
+
+.is-active a {
+  color: #fff!important;
+  background: #0563bb;
+}
+
+/* .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(255, 255, 255, 0.9)!important;
+  background: #0563bb!important;
+} */
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.9)!important;
+}
+
+
+.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+  color: #fff;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a {
+  width: 100%;
+  color: #fff;
+}
+
+.nav-menu a:hover span, .nav-menu li:hover > a span {
+  display: block;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .navbar-expand .navbar-toggler {
+    display: inline-block!important;
+  }
+
+  .nav-menu a {
+    height: 56px!important;
+    width: auto;
+  }
+}
+
+.mobile-nav-toggle i {
+  color: #45505b;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+  color: #0563bb;
+}
+
+/* countbox */
+.count-box {
+  padding: 30px 30px 25px 30px;
+  margin-top: 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+
+.count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #0563bb;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
+  width: 60px;
+}
+
+.count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #011426;
+}
+
+/* SKILLS */
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #ffffff!important;
+  border-radius: .25rem;
+
+  height: 50px!important;
+  display: block!important;
+  background: none;
+}
+
+.progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #0563bb;
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
+
+.progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #0563bb;
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
+
+
