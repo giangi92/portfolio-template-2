@@ -1,6 +1,6 @@
 Follow React tutorial to get started!
 
-# Whatch a demo at http://giangisoft.altervista.org/2_0/
+# Whatch a demo at http://giangisoft.altervista.org/3_0/
 
 # Getting Started with Create React App
 
